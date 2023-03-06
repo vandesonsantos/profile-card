@@ -1,21 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
+body{
+    background-color: var(--cor-background);
+    font-family: var(--fonte-principal);    
 }
 
-body{
-    background-color: hsl(185, 75%, 39%);
-    font-family: 'Kumbh Sans', sans-serif;
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
+    width: 100%;
+    height: 100%;
 }
 
 .white-top{
-    background-color: #fff;
+    background-color: var(--cor-background-02);
     width: 350px;
     text-align: center;
     padding-bottom: 30px;
@@ -42,18 +40,19 @@ body{
 }
 
 .nome-idade span{
-    color: #6a6f81;
+    color: var(--cor-fonte-secundaria);
     font-size: 19px;
     font-weight: 400;
 }
 
 .cidade p{
-    color: #6a6f81;
+    color: var(--cor-fonte-secundaria);
     margin-top: 15px;
 }
 
 .milhoes{
-    background-color: #fff;
+    background-color: var(--cor-background-02);
+    width: 290px;
     display: flex;
     justify-content: space-around;
     padding: 30px 30px;
@@ -68,7 +67,7 @@ body{
 }
 
 .milhoes p{
-    color: #6a6f81;
+    color: var(--cor-fonte-secundaria);
     font-size: 11px;
     text-align: center;
 }

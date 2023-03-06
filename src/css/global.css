@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --cor-background: #19A2AE;
+    --cor-background-02: #FFF; 
+    --cor-fonte-principal: #000;
+    --cor-fonte-secundaria: #6A6F81;
+    
+
+    --fonte-principal: 'Kumbh Sans', sans-serif
+}
