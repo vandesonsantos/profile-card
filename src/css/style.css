@@ -1,6 +1,10 @@
 body{
     background-color: var(--cor-background);
-    font-family: var(--fonte-principal);    
+    font-family: var(--fonte-principal);  
+    background-image: url("../imagens/bg-pattern-top.svg"); 
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: left, top;
 }
 
 .card{
